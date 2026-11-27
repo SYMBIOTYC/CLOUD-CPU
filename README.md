@@ -22,3 +22,8 @@ This repository will consume the versioned JobIntent / TaskRequest contract, dec
 ## Documentation
 
 [CPU worker contract](docs/worker-contract.md)
+
+
+## Bootstrap CI status
+
+The Ubuntu 24.04 workflow validates the repository baseline and emits a short-lived CI execution receipt. A passing hosted CI run proves only that repository validation executed; it does not prove that a production CPU worker, registry, or dispatcher is deployed.
