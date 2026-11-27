@@ -18,3 +18,7 @@ The initial CI workflow validates repository metadata and emits a run receipt. I
 ## Planned integration
 
 This repository will consume the versioned JobIntent / TaskRequest contract, declare capabilities and resource limits, return TaskResult plus an execution receipt, and publish artifacts through the federation artifact contract. These services remain unimplemented until the shared control plane is deployed.
+
+## Documentation
+
+[CPU worker contract](docs/worker-contract.md)
