@@ -13,7 +13,7 @@ Repository boundary for CPU-oriented batch compute in the Symbiotyc Compute Fede
 
 ## Baseline
 
-The initial CI workflow validates repository metadata and emits a run receipt. It proves that GitHub Actions executed the bootstrap job; it does not prove that a production CPU worker executed a compute job.
+The Linux CI workflow validates the README baseline and emits a run receipt. This proves that GitHub Actions executed on a hosted runner; it does not prove that a production CPU worker executed a compute job.
 
 ## Planned integration
 
